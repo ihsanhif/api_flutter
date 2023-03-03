@@ -1,8 +1,8 @@
 <?php
 
-require APPPATH . 'libraries/REST_Controller.php';
+use chriskacerguis\RestServer\RestController;
 
-class Item extends REST_Controller {
+class Item extends RestController {
 
 	/**
 	 * Get All Data from this method.
